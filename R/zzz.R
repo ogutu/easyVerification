@@ -17,9 +17,11 @@
 #
 
 .onAttach <- function(...) {
+  packageStartupMessage("")
   packageStartupMessage("WARNING: the repository for easyVerification has changed")
   packageStartupMessage("         and your version may not be up-to-date.")
   packageStartupMessage("         Please get the latest version of easyVerification using")
   packageStartupMessage('         install_github("MeteoSwiss/easyVerification")')
+  packageStartupMessage("")
 } 
 # End
